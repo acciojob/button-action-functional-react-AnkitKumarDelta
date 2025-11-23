@@ -8,7 +8,7 @@ function App() {
   }
   return (
     <div id="main">
-      <p id="para">{ispara && "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy."}</p>
+      {ispara && <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.</p>}
       <button id="click" onClick={handleclick}>Click</button>
     </div>
   );
